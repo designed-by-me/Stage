@@ -7,10 +7,7 @@ function Logo({ className = "w-full h-auto" }) {
     const [useFallback, setUseFallback] = useState(false);
     const [srcIndex, setSrcIndex] = useState(0);
     const sources = [
-        "newlogo.svg",
-        "images/newlogo.svg",
-        "images/Vector.svg",
-        "images/logo.png"
+        "/Images/Vector.svg"
     ];
 
     const handleError = () => {
